@@ -1,0 +1,17 @@
+labels,colors
+Open water,#5475a8
+Perenn. ice/snow,#ffffff
+Open space,#e8d1d1
+Low intens. dev.,#e29e8c
+Med. intens. dev.,#ff0000
+High intens. dev.,#b50000
+Barren,#d2cdc0
+Deciduous forest,#85c77e
+Evergreen forest,#38814e
+Mixed forest,#d4e7b0
+Shrub/scrub,#dcca8f
+Grassland,#e2e2c1
+Pasture/hay,#fbf65d
+Cultivated crops,#ca9146
+Woody wetland,#c8e6f8
+Other wetland,#64b3d5
