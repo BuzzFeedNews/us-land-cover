@@ -8,7 +8,7 @@ View the map [here](https://buzzfeednews.github.io/us-land-cover). You can zoom 
 
 ### Code
 
-The code to make the map, calling in the 2016 NCLD as [WMS tiles](https://www.mrlc.gov/geoserver/mrlc_display/NLCD_2016_Land_Cover_L48/wms?service=WMS&request=GetCapabilities), is in the file `landcover.R`. The file `nlcd_legend.csv` contains the labels and Hex color values for the legend.
+The code to make the map, calling in the 2016 NLCD as [WMS tiles](https://www.mrlc.gov/geoserver/mrlc_display/NLCD_2016_Land_Cover_L48/wms?service=WMS&request=GetCapabilities), is in the file `landcover.R`. The file `nlcd_legend.csv` contains the labels and Hex color values for the legend.
 
 
 ### Questions/Feedback
