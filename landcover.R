@@ -27,8 +27,8 @@ addLegendCustom <- function(map, colors, labels, sizes, shapes, borders, opacity
 
 # make leaflet map, bringing in National Land Cover Database from WMS
 leaflet() %>% 
-  addTiles(group="OpenStreetMap") %>%
   addProviderTiles(providers$Esri.WorldImagery, group="Satellite") %>%
+  addTiles(group="OpenStreetMap") %>%
   setView(-93.65, 42.0285, zoom = 4) %>%
   addResetMapButton() %>%
   # add address/location search
@@ -45,7 +45,7 @@ leaflet() %>%
     group = "Land cover"
   ) %>%
   addLayersControl(
-    baseGroups = c("OpenStreetMap","Satellite"),
+    baseGroups = c("Satellite","OpenStreetMap"),
     overlayGroups = "Land cover",
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
